@@ -1,0 +1,11 @@
+{
+  "apps": [
+    {
+      "name": "myapp",
+      "script": "./server.js",
+      "instances": "max",
+      "exec_mode": "cluster",
+      "error_file": "errors.log"
+    }
+  ]
+}

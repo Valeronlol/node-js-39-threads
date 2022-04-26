@@ -1,0 +1,18 @@
+{
+  "name": "pm2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "prod": "pm2 start ecosystem.json",
+    "prod:restart": "pm2 restart ecosystem.json",
+    "prod:monit": "pm2 monit",
+    "prod:stop": "pm2 stop all && pm2 delete all"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pm2": "^5.2.0"
+  }
+}
